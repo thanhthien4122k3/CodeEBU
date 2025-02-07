@@ -31,7 +31,8 @@ Project này là một script Python được thiết kế để tự động h�
 ## Nội dung các file
 * 📄 TKB_GV.xlsx [(File TKB giáo viên)](https://github.com/thanhthien4122k3/UDCNTT_HANU/blob/d07afa9f8059fc699169eb136cfff4a96df7b11f/TKB_demo.xlsx)
 ```
- Từ cột A:G **phải có 3 cột** (STT, Lớp và Giáo viên) và tên là "Thong ke gio day HK1" ở cột A
+ Từ cột A:G **phải có 3 cột** (STT, Lớp và Giáo viên) và tên sheet phải là "Thong ke gio day HK1".
+ Bắt buộc ở cột A có tên là STT
 ```
 ![image](https://github.com/user-attachments/assets/35b39bb5-2b11-4e45-b5f0-92428c360d66)
 
