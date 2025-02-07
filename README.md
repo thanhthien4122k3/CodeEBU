@@ -29,14 +29,14 @@ Project này là một script Python được thiết kế để tự động h�
 *   **Kết nối thông tin giáo viên:**  Mở rộng khả năng phân tích dữ liệu bằng cách tích hợp thông tin về giáo viên.
 
 ## Nội dung các file
-* 📄 TKB_GV.xlsx (File TKB giáo viên)
+* 📄 TKB_GV.xlsx [(File TKB giáo viên)](https://github.com/thanhthien4122k3/UDCNTT_HANU/blob/d07afa9f8059fc699169eb136cfff4a96df7b11f/TKB_demo.xlsx)
 ```
  Từ cột A:G **phải có 3 cột** (STT, Lớp và Giáo viên) và tên là "Thong ke gio day HK1" ở cột A
 ```
 ![image](https://github.com/user-attachments/assets/35b39bb5-2b11-4e45-b5f0-92428c360d66)
 
 
-📄 File điểm 1.xlsx
+📄 File điểm 1.xlsx ([File_diem_demo.xlsx](https://github.com/thanhthien4122k3/UDCNTT_HANU/blob/d07afa9f8059fc699169eb136cfff4a96df7b11f/File_diem_demo.xlsx)
 ```
 Bắt buộc
 + Phải có dòng: 
