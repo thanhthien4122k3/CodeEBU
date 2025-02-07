@@ -28,6 +28,23 @@ Project này là một script Python được thiết kế để tự động h�
 *   **Cung cấp thông tin thống kê:**  Giúp người dùng nắm bắt được tình hình xử lý dữ liệu và chất lượng dữ liệu đầu vào.
 *   **Kết nối thông tin giáo viên:**  Mở rộng khả năng phân tích dữ liệu bằng cách tích hợp thông tin về giáo viên.
 
+## Nội dung các file
+* 📄 TKB_GV.xlsx (File TKB giáo viên)
+```
+ Từ cột A:G **phải có 3 cột** (STT, Lớp và Giáo viên) và tên là "Thong ke gio day HK1"
+   ![image](https://github.com/user-attachments/assets/35b39bb5-2b11-4e45-b5f0-92428c360d66)
+```
+*📄 File điểm 1.xlsx
+```
+Bắt buộc
++ Phải có dòng: 	Học kì 1. năm học 2022-2023		Môn: Ứng dụng CNTT 				NHÓM 01 
+
++ Phải có các cột: STT, "Điểm CC (10%)", "Điểm GK (30%)", "Điểm cuối kỳ (60%)", MSSV, Ghi chú (Lưu ý: có thể không viết tắt cũng được)
+
+![image](https://github.com/user-attachments/assets/e5e99a33-9f52-4861-b5a1-963ea43410da)
+
+```
+
 ## Yêu cầu
 
 Trước khi sử dụng script này, bạn cần đảm bảo đã cài đặt các thư viện Python sau:
