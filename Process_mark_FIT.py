@@ -10,9 +10,9 @@ from pathlib import Path
 warnings.filterwarnings('ignore')
 
 # Đường dẫn thư mục nguồn và đích
-folder_path = Path(r"C:\Users\Admin\Documents\Zalo Received Files\DIEM THANH PHAN_KI 1, 2022_2023")
+folder_path = Path(r"D:\Visual Studio Coode\Python\FIT_UDCNTT\DIEM THANH PHAN_KI 1, 2022_2023")
 processed_path = Path(r"D:\Visual Studio Coode\Python\FIT_UDCNTT\Mark_data\Term1_2022_2023_processed")
-teacher_file_path = Path(r"C:\Users\Admin\Documents\Zalo Received Files\12102022_TKB_BMTHCS_HKI_2022_2023_Luu khoa.xlsx")
+teacher_file_path = Path(r"D:\Visual Studio Coode\Python\FIT_UDCNTT\TKB_demo.xlsx")
 
 # Các file output
 merged_invalid_file_path = processed_path / 'INVALID_ALL.csv'
