@@ -31,10 +31,12 @@ Project này là một script Python được thiết kế để tự động h�
 ## Nội dung các file
 * 📄 TKB_GV.xlsx (File TKB giáo viên)
 ```
- Từ cột A:G **phải có 3 cột** (STT, Lớp và Giáo viên) và tên là "Thong ke gio day HK1"
-   ![image](https://github.com/user-attachments/assets/35b39bb5-2b11-4e45-b5f0-92428c360d66)
+ Từ cột A:G **phải có 3 cột** (STT, Lớp và Giáo viên) và tên là "Thong ke gio day HK1" ở cột A
 ```
-*📄 File điểm 1.xlsx
+![image](https://github.com/user-attachments/assets/35b39bb5-2b11-4e45-b5f0-92428c360d66)
+
+
+📄 File điểm 1.xlsx
 ```
 Bắt buộc
 + Phải có dòng: 
@@ -44,7 +46,7 @@ Bắt buộc
    - STT, "Điểm CC (10%)", "Điểm GK (30%)", "Điểm cuối kỳ (60%)", MSSV, Ghi chú ( có thể không viết tắt cũng được)
    - STT	"Điểm giữa kỳ (30%)" "Điểm chuyên cần (10%)"	"Điểm cuối kỳ(60%)"	Mã sinh viên	Ghi chú
 									
-**-> Lưu ý: Phải đúng một trong hay định dạng trên hoặc sẽ có lỗi**
+**-> Lưu ý: Phải đúng một trong hay định dạng trên hoặc sẽ có lỗi và cột STT ở cột A**
 ```
 ![image](https://github.com/user-attachments/assets/e5e99a33-9f52-4861-b5a1-963ea43410da)
 
