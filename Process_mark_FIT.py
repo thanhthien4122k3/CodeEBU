@@ -347,5 +347,3 @@ if not stats_df.empty:
     print(f'📊 Đã lưu thống kê xử lý: {stats_file_path}')
 
 print("\n✅ Hoàn thành xử lý tất cả dữ liệu!")
-
-print(os.__version__)
