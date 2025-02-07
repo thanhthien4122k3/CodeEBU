@@ -9,12 +9,10 @@ from pathlib import Path
 # Ẩn cảnh báo
 warnings.filterwarnings('ignore')
 
-
 # Đường dẫn thư mục nguồn và đích
-folder_path = Path(r"D:\Visual Studio Coode\Python\FIT_UDCNTT\DIEM THANH PHAN_KI 1, 2022_2023")
+folder_path = Path(r"C:\Users\Admin\Documents\Zalo Received Files\DIEM THANH PHAN_KI 1, 2022_2023")
 processed_path = Path(r"D:\Visual Studio Coode\Python\FIT_UDCNTT\Mark_data\Term1_2022_2023_processed")
-teacher_file_path = Path(r"D:\Visual Studio Coode\Python\FIT_UDCNTT\TKB_GV khoa.xlsx")
-
+teacher_file_path = Path(r"C:\Users\Admin\Documents\Zalo Received Files\12102022_TKB_BMTHCS_HKI_2022_2023_Luu khoa.xlsx")
 
 # Các file output
 merged_invalid_file_path = processed_path / 'INVALID_ALL.csv'
@@ -303,13 +301,18 @@ for file_name in os.listdir(folder_path):
 
 # Xử lý dữ liệu giáo viên và merge
 try:
-    df_teacher = pd.read_excel(
-        teacher_file_path,
-        sheet_name="Thong ke gio day HK1",
-        skiprows=2,
-        usecols="A:G",
-        dtype={'Lớp': 'string', 'Giáo viên': 'string'}
-    )
+    sheet_name = "Thong ke gio day"
+    df_raw = pd.read_excel(teacher_file_path, sheet_name=sheet_name, header=None)
+
+    # Tìm dòng chứa "STT" trong cột đầu tiên
+    header_rows = df_raw[df_raw.iloc[:, 0] == "STT"].index
+    if not header_rows.empty:
+        header_row = header_rows[0]
+    else:
+        raise ValueError("Không tìm thấy tiêu đề 'STT' trong sheet.")
+
+    # Đọc lại dữ liệu với hàng tiêu đề được tìm thấy
+    df_teacher = pd.read_excel(teacher_file_path, sheet_name=sheet_name, skiprows=header_row)
     
     df_teacher = df_teacher.dropna(how='all').reset_index(drop=True)
     df_teacher['Lớp'] = df_teacher['Lớp'].str.replace('UDCNTT_', '', regex=False)
