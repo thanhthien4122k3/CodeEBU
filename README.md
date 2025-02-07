@@ -37,13 +37,16 @@ Project này là một script Python được thiết kế để tự động h�
 *📄 File điểm 1.xlsx
 ```
 Bắt buộc
-+ Phải có dòng: 	Học kì 1. năm học 2022-2023		Môn: Ứng dụng CNTT 				NHÓM 01 
-
-+ Phải có các cột: STT, "Điểm CC (10%)", "Điểm GK (30%)", "Điểm cuối kỳ (60%)", MSSV, Ghi chú (Lưu ý: có thể không viết tắt cũng được)
-
-![image](https://github.com/user-attachments/assets/e5e99a33-9f52-4861-b5a1-963ea43410da)
-
++ Phải có dòng: 
+   - Học kì 1. năm học 2022-2023	Môn: Ứng dụng CNTT NHÓM 01
+   - Môn: ỨNG DỤNG CNTT  Học kì 2, năm học 2023-2024   Nhóm:  UDCNTT_47
++ Phải có các cột:
+   - STT, "Điểm CC (10%)", "Điểm GK (30%)", "Điểm cuối kỳ (60%)", MSSV, Ghi chú ( có thể không viết tắt cũng được)
+   - STT	"Điểm giữa kỳ (30%)" "Điểm chuyên cần (10%)"	"Điểm cuối kỳ(60%)"	Mã sinh viên	Ghi chú
+									
+**-> Lưu ý: Phải đúng một trong hay định dạng trên hoặc sẽ có lỗi**
 ```
+![image](https://github.com/user-attachments/assets/e5e99a33-9f52-4861-b5a1-963ea43410da)
 
 ## Yêu cầu
 
